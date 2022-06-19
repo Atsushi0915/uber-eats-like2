@@ -2,8 +2,7 @@ import React, { Fragment } from 'react';
 import { useParams } from 'react-router';
 
 export const Foods = () => {
-  const params = useParams();
-  console.log(params);
+  const params = useParams();     //URLに含まれるパラメータを取得する。
 
   return (
     <Fragment>
